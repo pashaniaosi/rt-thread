@@ -364,13 +364,14 @@ ARM Macro Assembler    Page 6
               E000ED20 
               FFFF0000 
               E000ED08 
-Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=rt-thread\context_rvds.d -ort-thread\context_rvds.o -I.\RTE\_rt
--thread -I"d:\Program Files\Keil\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include" -
-I"d:\Program Files\Keil\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\
-ST\STM32G4xx\Include" --predefine="__UVISION_VERSION SETA 525" --predefine="_RT
-E_ SETA 1" --predefine="STM32G474xx SETA 1" --list=context_rvds.lst ../Middlewa
-res/Third_Party/RealThread_RTOS/libcpu/arm/cortex-m4/context_rvds.S
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
+interwork --depend=rt-thread\context_rvds.d -ort-thread\context_rvds.o -I.\RTE\
+_rt-thread -I"d:\Program Files\Keil\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+" -I"d:\Program Files\Keil\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Devi
+ce\ST\STM32G4xx\Include" --predefine="__UVISION_VERSION SETA 536" --predefine="
+_RTE_ SETA 1" --predefine="STM32G474xx SETA 1" --predefine="_RTE_ SETA 1" --lis
+t=context_rvds.lst ../Middlewares/Third_Party/RealThread_RTOS/libcpu/arm/cortex
+-m4/context_rvds.S
 
 
 
